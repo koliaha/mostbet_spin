@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostbet</title>
+    <script src="./js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/fonts.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./img/mb_ico.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <section class="sec1">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="./img/logo.png">
+            </div>
+            <div class="middle">
+                <div class="remain-num">
+                    <div class="num">
+                        <span class="remain">20</span>
+                    </div>
+                    <span class="remain-text">
+                        Количество <br>попыток
+                    </span>
+                </div>
+                <div class="middle-line">
+                    <div class="middle-line-left">
+                        <p>Крути  барабан</p>
+                    </div>
+                    <div class="middle-line-right">
+                        <p>Получай  Призы</p>
+                    </div>
+                </div>
+                <div class="spin-wrapper">
+                    <div class="coins"></div>
+                    <div class="wheel-wrarpper">
+                        <div class="wheel">
+                            <img class="wheel-img" src="./img/wheel.png">
+                            <img class="spinner" src="./img/spiner.png">
+                            <div class="wheel-cursor">
+                                <button id="btn" class="cursor-text" onclick="spin(this);">КРУТИТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                    <ul class="lightslist">
+                        <li class="light1"><img src="./img/starshine.png"></li>
+                        <li class="light2"><img src="./img/starshine.png"></li>
+                        <li class="light3"><img src="./img/starshine.png"></li>
+                        <li class="light4"><img src="./img/starshine.png"></li>
+                        <li class="light5"><img src="./img/starshine.png"></li>
+                        <li class="light6"><img src="./img/starshine.png"></li>
+                        <li class="light7"><img src="./img/starshine.png"></li>
+                        <li class="light8"><img src="./img/starshine.png"></li>
+                        <li class="light9"><img src="./img/starshine.png"></li>
+                        <li class="light10"><img src="./img/starshine.png"></li>
+                        <li class="light11"><img src="./img/starshine.png"></li>
+                    </ul>
+            </div>
+            <div class="bottom">
+                <div class="bottom-list">
+                    <div class="bottom-item">
+                        <span class="bold">МГНОВЕННЫЕ</span><br>
+                        ВЫПЛАТЫ
+                    </div>
+                    <div class="bottom-item">
+                        <span class="bold">Лучшие</span><br>
+                        Турниры
+                    </div>
+                    <div class="bottom-item">
+                        <span class="bold">Ежедневные</span><br>
+                        Бонусы
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spin-result-wrapper">
+        <div class="star"></div>
+        <div class="coins2"></div>
+        <div class="pop-up-window">
+            <img src="./img/logo.png" class="pop-logo">
+            <div class="congrats-block">
+                <span class="pop-up-heading">
+                    <img src="./img/starshine.png" class="stars1">
+                    <img src="./img/starshine.png" class="stars2">
+                    Поздравляем!</span>
+            </div>
+            <p class="ruletka-p pop-up-text">Вы выиграли <br>
+                Бонус 50%<br>
+                к первому депозит </p>
+            <p>У вас есть еще одна попытка</p>
+            <!-- <a class="close-popup" href="">Закрыть</a> -->
+            <div class="botom-pop">
+                <a class="pop-up-button gratz-btn" href="">КРУТИТЬ ЕЩЁ</a>
+            </div>
+        </div>
+    </div>
+    <div class="input-form">
+        <div class="coins2"></div>
+        <div class="pop-up-window">
+            <img src="./img/logo.png" class="pop-logo">
+            <div class="congrats-block">
+                <img src="./img/confit.png" class="confit">
+                <span class="pop-up-heading">
+                    ВАШ ВЫИГРЫШ<br>
+                    ЖДЕТ ВАС!!</span>
+            </div>
+            <p class="ruletka-p pop-up-text">Введите Email, чтобы забрать<br>
+                ваш <span class="yellow"> выигрыш 200% на депозит </span> <br>
+                и <span class="yellow">200 фриспинов</span> </p>
+            <form class="order_form form" method="POST" action="">
+                <input type="email" class="inp-form" placeholder="Email" required>
+                <input type="password" class="inp-form" placeholder="Пароль" required>
+
+                <label class="container">Я подтверждаю своё совершеннолетие и соглашаюсь
+                    с правилами сайта
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+            </form>
+            <div class="botom-pop">
+                <button type="submit" class="pop-up-button form-btn" href="">Забрать бонус</button>
+
+            </div>
+        </div>
+    </div>
+<div class="alert-form">
+    <div class="alert-wrap">
+        <p class="alert-text">
+            Бонусная попытка!<br>
+            Попробуй ещё раз!
+        </p>
+    </div>
+</div>
+    
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
